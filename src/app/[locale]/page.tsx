@@ -1,7 +1,9 @@
 import React from "react";
+import { useTranslations } from "next-intl";
 
 const HomePage = () => {
-  return <div>Hello World</div>;
+  const t = useTranslations("HomePage");
+  return <h1>{t("title")}</h1>;
 };
 
 export default HomePage;

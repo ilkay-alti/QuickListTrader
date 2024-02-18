@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import "./globals.css";
+import "@/app/globals.css";
 import { FC } from "react";
 
 //poppins font
@@ -16,11 +16,12 @@ export const metadata: Metadata = {
 
 interface RootLayotProps {
   children: React.ReactNode;
+  params: { locale: string };
 }
 
-const RootLayout: FC<RootLayotProps> = ({ children }) => {
+const RootLayout: FC<RootLayotProps> = ({ children, params }) => {
   return (
-    <html lang="en">
+    <html lang={params.locale}>
       <body className={poppins.className}>{children}</body>
     </html>
   );
