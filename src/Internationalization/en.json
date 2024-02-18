@@ -1,5 +1,93 @@
 {
   "HomePage": {
-    "title": "Hello world!"
+    "title": "TradingView watchlists in one place",
+    "description": "QuickListTrader is the easiest way to download TradingView-compatible watchlists that are updated bi-daily. Our goal is to make it as easy as brewing a cup of coffee. So let's get you those lists and start making some money in the market!",
+    "support": "Support us",
+    "supportDescription": "Help keep the lights on so we see what we’re doing when making sandwiches. Feel free to use our ref links or make an open donation if you like this tool. Any donations go towards beers, coffee and other stimulants to keep us going!",
+    "madeBy": "Made with love by "
+  },
+  "AboutPage": {
+    "title": "How does it work?",
+    "titleDescription": "Not familiar with TradingView watchlists and how to import them? Here's a quick overview of how to go about importing our watchlists. We will make a watchlist pro out of you yet!",
+    "stepOne": "TradingView watchlists allow you to make a list of all the assets you want to keep track of. Some people like tracking specific types of assets, but with exchanges constantly adding/removing assets it becomes a hassle to keep those lists up-to-date. That's where we come in!",
+    "stepTwo": {
+      "One": "Download any watchlist you like from us and open a TradingView browser window. Expand the list by clicking the list icon on the right. Click on the list name and ",
+      "Two": "Import List... ",
+      "Three": "Select the file you downloaded from us, and that's it! All your coins are imported!"
+    }
+  },
+  "Binance": {
+    "title": "Binance",
+    "item1": "All markets",
+    "item2": "BTC markets",
+    "item3": "ETH markets",
+    "item4": "USDT markets",
+    "item5": "BUSD markets",
+    "item6": "BNB markets",
+    "item7": "USDT perpetual futures",
+    "item8": "BUSD perpetual futures",
+    "item9": "USD perpetual futures"
+  },
+  "ByBit": {
+    "title": "ByBit",
+    "item1": "All markets",
+    "item4": "USD markets",
+    "item6": "USDT markets"
+  },
+  "OKX": {
+    "title": "OKX",
+    "item1": "All spot markets",
+    "item2": "Spot USDT markets",
+    "item3": "Spot USDC markets",
+    "item4": "Spot BTC markets",
+    "item5": "Spot ETH markets"
+  },
+  "Kucoin": {
+    "title": "Kucoin",
+    "item1": "All markets",
+    "item2": "BTC markets",
+    "item3": "ETH markets",
+    "item4": "USDT markets"
+  },
+  "Huobi": {
+    "title": "Huobi",
+    "item1": "All markets",
+    "item2": "BTC markets",
+    "item3": "ETH markets",
+    "item4": "USDT markets",
+    "item6": "HT markets"
+  },
+  "Bitfinex": {
+    "title": "Bitfinex",
+    "item1": "All markets",
+    "item2": "BTC markets",
+    "item3": "ETH markets",
+    "item4": "USD markets",
+    "item5": "Derivatives"
+  },
+  "Coinbase": {
+    "title": "Coinbase",
+    "item1": "All markets",
+    "item2": "BTC markets",
+    "item3": "USD markets",
+    "item4": "USDC markets",
+    "item5": "EUR markets",
+    "item6": "GBP markets"
+  },
+  "Kraken": {
+    "title": "Kraken",
+    "item1": "All markets",
+    "item2": "XBT markets",
+    "item3": "ETH markets",
+    "item4": "USD markets",
+    "item5": "EUR markets",
+    "item6": "USDT markets"
+  },
+  "Poloniex": {
+    "title": "Poloniex",
+    "item1": "All markets",
+    "item2": "BTC markets",
+    "item3": "ETH markets",
+    "item4": "USDT markets"
   }
 }

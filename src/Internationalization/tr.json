@@ -1,5 +1,93 @@
 {
   "HomePage": {
-    "title": "Merhaba Dunya!"
+    "title": "TradingView izleme listeleri tek bir yerde",
+    "description": "QuickListTrader, günlük olarak güncellenen TradingView uyumlu izleme listelerini indirmenin en kolay yoludur. Amacımız, bunu bir fincan kahve demlemek kadar kolay hale getirmektir. Hadi sana bu listeleri sağlayalım ve piyasada para kazanmaya başlayalım!",
+    "support": "Bize destek olun",
+    "supportDescription": "Işıklerin yanmasına yardımcı olun ki, sandviç yaparken ne yaptığımızı görelim. Eğer bu aracı beğendiyseniz, ref linklerimizi kullanabilir veya açık bağış yapabilirsiniz. Yapılan her bağış, bizi sürdürebilmek için biralar, kahve ve diğer uyarıcılar için kullanılır!",
+    "madeBy": "Aşkla yapılmıştır "
+  },
+  "AboutPage": {
+    "title": "Nasıl çalışır?",
+    "titleDescription": "TradingView izleme listeleri ve bunları nasıl içe aktaracağınızı bilmiyor musunuz? İzleme listelerimizi içe aktarma hakkında hızlı bir genel bakış için buradayız. Sizi bir izleme listesi uzmanı yapacağız!",
+    "stepOne": "TradingView izleme listeleri, takip etmek istediğiniz tüm varlıkların bir listesini yapmanıza olanak tanır. Bazı insanlar belirli türde varlıkları izlemeyi sever, ancak borsalar sürekli olarak varlıklar ekleyip/kaldırdıklarında bu listeleri güncel tutmak zorlaşır. İşte burada devreye biz giriyoruz!",
+    "stepTwo": {
+      "One": "Bizden hoşunuza giden herhangi bir izleme listesini indirin ve bir TradingView tarayıcı penceresi açın. Listeyi sağ taraftaki liste simgesini genişleterek açın. Liste adına tıklayın ve ",
+      "Two": "Liste içe aktar... ",
+      "Three": "Dosyayı bizden indirdiğiniz dosyayı seçin ve işte bu kadar! Tüm coinleriniz içe aktarıldı!"
+    }
+  },
+  "Binance": {
+    "title": "Binance",
+    "item1": "Tüm piyasalar",
+    "item2": "BTC piyasaları",
+    "item3": "ETH piyasaları",
+    "item4": "USDT piyasaları",
+    "item5": "BUSD piyasaları",
+    "item6": "BNB piyasaları",
+    "item7": "USDT sürekli vadeli işlemler",
+    "item8": "BUSD sürekli vadeli işlemler",
+    "item9": "USD sürekli vadeli işlemler"
+  },
+  "ByBit": {
+    "title": "ByBit",
+    "item1": "Tüm piyasalar",
+    "item4": "USD piyasaları",
+    "item6": "USDT piyasaları"
+  },
+  "OKX": {
+    "title": "OKX",
+    "item1": "Tüm spot piyasalar",
+    "item2": "Spot USDT piyasaları",
+    "item3": "Spot USDC piyasaları",
+    "item4": "Spot BTC piyasaları",
+    "item5": "Spot ETH piyasaları"
+  },
+  "Kucoin": {
+    "title": "Kucoin",
+    "item1": "Tüm piyasalar",
+    "item2": "BTC piyasaları",
+    "item3": "ETH piyasaları",
+    "item4": "USDT piyasaları"
+  },
+  "Huobi": {
+    "title": "Huobi",
+    "item1": "Tüm piyasalar",
+    "item2": "BTC piyasaları",
+    "item3": "ETH piyasaları",
+    "item4": "USDT piyasaları",
+    "item6": "HT piyasaları"
+  },
+  "Bitfinex": {
+    "title": "Bitfinex",
+    "item1": "Tüm piyasalar",
+    "item2": "BTC piyasaları",
+    "item3": "ETH piyasaları",
+    "item4": "USD piyasaları",
+    "item5": "Türevler"
+  },
+  "Coinbase": {
+    "title": "Coinbase",
+    "item1": "Tüm piyasalar",
+    "item2": "BTC piyasaları",
+    "item3": "USD piyasaları",
+    "item4": "USDC piyasaları",
+    "item5": "EUR piyasaları",
+    "item6": "GBP piyasaları"
+  },
+  "Kraken": {
+    "title": "Kraken",
+    "item1": "Tüm piyasalar",
+    "item2": "XBT piyasaları",
+    "item3": "ETH piyasaları",
+    "item4": "USD piyasaları",
+    "item5": "EUR piyasaları",
+    "item6": "USDT piyasaları"
+  },
+  "Poloniex": {
+    "title": "Poloniex",
+    "item1": "Tüm piyasalar",
+    "item2": "BTC piyasaları",
+    "item3": "ETH piyasaları",
+    "item4": "USDT piyasaları"
   }
 }
