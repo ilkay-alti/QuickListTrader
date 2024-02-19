@@ -25,9 +25,9 @@ const RootLayout: FC<RootLayotProps> = ({ children, params }) => {
   return (
     <html lang={params.locale}>
       <body className={poppins.className}>
-        <div className="mx-[160px] text-[#15151E] ">
+        <div className="  text-[#15151E] px-[195px]  ">
           <Header />
-          <div className="mx-14 ">{children}</div>
+          <div>{children}</div>
         </div>
 
         <Footer />

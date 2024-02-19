@@ -1,80 +1,236 @@
-const mockData = {
-  Binance: {
+export const mockData = [
+  {
     title: "Binance",
     items: [
-      "All markets",
-      "BTC markets",
-      "ETH markets",
-      "USDT markets",
-      "BUSD markets",
-      "BNB markets",
-      "USDT perpetual futures",
-      "BUSD perpetual futures",
-      "USD perpetual futures",
+      {
+        title: "All markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "BTC markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "ETH markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "USDT markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "BUSD markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "BNB markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "USDT perpetual futures",
+        link: "https://binance.com",
+      },
+
+      {
+        title: "BUSD perpetual futures",
+        link: "https://binance.com",
+      },
+      {
+        title: "USD perpetual futures",
+        link: "https://binance.com",
+      },
     ],
   },
-  ByBit: {
+  {
     title: "ByBit",
-    items: ["All markets", "USD markets", "USDT markets"],
+    items: [
+      {
+        title: "All markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "USD markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "USDT markets",
+        link: "https://binance.com",
+      },
+    ],
   },
-  OKX: {
+  {
     title: "OKX",
     items: [
-      "All spot markets",
-      "Spot USDT markets",
-      "Spot USDC markets",
-      "Spot BTC markets",
-      "Spot ETH markets",
+      {
+        title: "All spot markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "Spot USDT markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "Spot USDC markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "Spot BTC markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "Spot ETH markets",
+        link: "https://binance.com",
+      },
     ],
   },
-  Kucoin: {
+  {
     title: "Kucoin",
-    items: ["All markets", "BTC markets", "ETH markets", "USDT markets"],
+    items: [
+      {
+        title: "All markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "BTC markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "ETH markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "USDT markets",
+        link: "https://binance.com",
+      },
+    ],
   },
-  Huobi: {
+  {
     title: "Huobi",
     items: [
-      "All markets",
-      "BTC markets",
-      "ETH markets",
-      "USDT markets",
-      "HT markets",
+      {
+        title: "All markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "BTC markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "ETH markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "USDT markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "HT markets",
+        link: "https://binance.com",
+      },
     ],
   },
-  Bitfinex: {
+  {
     title: "Bitfinex",
     items: [
-      "All markets",
-      "BTC markets",
-      "ETH markets",
-      "USD markets",
-      "Derivatives",
+      {
+        title: "All markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "BTC markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "ETH markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "USD markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "Derivatives",
+        link: "https://binance.com",
+      },
     ],
   },
-  Coinbase: {
+  {
     title: "Coinbase",
     items: [
-      "All markets",
-      "BTC markets",
-      "USD markets",
-      "USDC markets",
-      "EUR markets",
-      "GBP markets",
+      {
+        title: "All markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "BTC markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "USD markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "USDC markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "EUR markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "GBP markets",
+        link: "https://binance.com",
+      },
     ],
   },
-  Kraken: {
+  {
     title: "Kraken",
     items: [
-      "All markets",
-      "XBT markets",
-      "ETH markets",
-      "USD markets",
-      "EUR markets",
-      "USDT markets",
+      {
+        title: "All markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "BTC markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "ETH markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "USD markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "EUR markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "USDT markets",
+        link: "https://binance.com",
+      },
     ],
   },
-  Poloniex: {
+  {
     title: "Poloniex",
-    items: ["All markets", "BTC markets", "ETH markets", "USDT markets"],
+    items: [
+      {
+        title: "All markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "BTC markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "ETH markets",
+        link: "https://binance.com",
+      },
+      {
+        title: "USDT markets",
+        link: "https://binance.com",
+      },
+    ],
   },
-};
+];

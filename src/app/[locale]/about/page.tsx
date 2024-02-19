@@ -6,7 +6,7 @@ const AboutPage = () => {
   const t = useTranslations("AboutPage");
 
   return (
-    <div className="flex flex-col items-center text-center mx-20 mb-48">
+    <div className="flex flex-col items-center text-center mx-20 mb-48 ">
       <div className="mb-16 gap-6">
         <h1 className="text-5xl font-bold my-6">{t("title")}</h1>
         <span className=" text-lg">{t("titleDescription")}</span>

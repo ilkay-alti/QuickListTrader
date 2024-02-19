@@ -6,7 +6,7 @@ const Footer = () => {
   const t = useTranslations("Footer");
 
   return (
-    <div className="flex items-center justify-center h-24 w-full bg-[#2C363F] text-white gap-2 items-center">
+    <div className="flex justify-center h-24 w-full bg-[#2C363F] text-white gap-2 items-center">
       <span>{t("madeBy")}</span>
       <Link
         href={"https://github.com/ilkay-alti"}
