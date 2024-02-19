@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "@/app/globals.css";
 import { FC } from "react";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 //poppins font
 const poppins = Poppins({
@@ -22,7 +24,14 @@ interface RootLayotProps {
 const RootLayout: FC<RootLayotProps> = ({ children, params }) => {
   return (
     <html lang={params.locale}>
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+        <div className="mx-[160px] text-[#15151E] ">
+          <Header />
+          <div className="mx-14 ">{children}</div>
+        </div>
+
+        <Footer />
+      </body>
     </html>
   );
 };

@@ -16,6 +16,13 @@
       "Three": "Select the file you downloaded from us, and that's it! All your coins are imported!"
     }
   },
+  "Header": {
+    "home": "Home",
+    "about": "How does it work?"
+  },
+  "Footer": {
+    "madeBy": "Made with love by "
+  },
   "Binance": {
     "title": "Binance",
     "item1": "All markets",

@@ -16,6 +16,13 @@
       "Three": "Dosyayı bizden indirdiğiniz dosyayı seçin ve işte bu kadar! Tüm coinleriniz içe aktarıldı!"
     }
   },
+  "Header": {
+    "home": "Ana Sayfa",
+    "about": "Ne işe yarıyoruz?"
+  },
+  "Footer": {
+    "madeBy": "Yapan kişi "
+  },
   "Binance": {
     "title": "Binance",
     "item1": "Tüm piyasalar",
