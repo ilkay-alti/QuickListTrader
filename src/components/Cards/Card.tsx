@@ -21,6 +21,7 @@ const card = cva([], {
 interface CardrProps extends VariantProps<typeof card> {
   className?: string;
   data: dataProps;
+  color?: string;
 }
 
 interface dataProps {
@@ -32,22 +33,25 @@ export const Card: React.FC<CardrProps> = ({
   className,
   intent,
   data,
+  color,
 
   ...props
 }) => (
-  <Link
-    href={data.link}
-    target="_blank"
-    className={twMerge(card({ intent, className }))}
-    {...props}
-  >
-    <Binance
-      width={30}
-      height={30}
-      className="group-hover:fill-gray-500 group-hover/text:fill-[#F0B90B] "
-    />
-    <span className="group-hover/text:text-black group-hover:fill-gray-900 ">
-      {data.title}
-    </span>
-  </Link>
+  console.log("data", color),
+  (
+    <Link
+      href={data.link}
+      target="_blank"
+      className={twMerge(card({ intent, className }))}
+      {...props}
+    >
+      <Binance
+        width={30}
+        height={30}
+        style={{ color: color }}
+        className={` group-hover/text:fill-current group-hover:fill-gray-500`}
+      />
+      <span className="group-hover/text:text-black  ">{data.title}</span>
+    </Link>
+  )
 );

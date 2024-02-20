@@ -1,6 +1,7 @@
 export const mockData = [
   {
     title: "Binance",
+    color: "#eab308",
     items: [
       {
         title: "All markets",
@@ -43,6 +44,7 @@ export const mockData = [
   },
   {
     title: "ByBit",
+    color: "#0091F7",
     items: [
       {
         title: "All markets",
@@ -59,6 +61,7 @@ export const mockData = [
     ],
   },
   {
+    color: "#0091F7",
     title: "OKX",
     items: [
       {
@@ -85,6 +88,7 @@ export const mockData = [
   },
   {
     title: "Kucoin",
+    color: "#0091F7",
     items: [
       {
         title: "All markets",
@@ -106,6 +110,8 @@ export const mockData = [
   },
   {
     title: "Huobi",
+    color: "#0091F7",
+
     items: [
       {
         title: "All markets",
@@ -131,6 +137,8 @@ export const mockData = [
   },
   {
     title: "Bitfinex",
+    color: "#0091F7",
+
     items: [
       {
         title: "All markets",
@@ -156,6 +164,8 @@ export const mockData = [
   },
   {
     title: "Coinbase",
+    color: "#0091F7",
+
     items: [
       {
         title: "All markets",
@@ -185,6 +195,8 @@ export const mockData = [
   },
   {
     title: "Kraken",
+    color: "#0091F7",
+
     items: [
       {
         title: "All markets",
@@ -214,6 +226,8 @@ export const mockData = [
   },
   {
     title: "Poloniex",
+    color: "#0091F7",
+
     items: [
       {
         title: "All markets",

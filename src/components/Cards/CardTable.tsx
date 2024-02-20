@@ -22,6 +22,7 @@ interface CardTableProps extends VariantProps<typeof cardTable> {
 
 type dataProps = {
   title: string;
+  color?: string;
   items: {
     title: string;
     link: string;
@@ -43,7 +44,8 @@ export const CardTable: React.FC<CardTableProps> = ({
             <Card
               key={subItem.title}
               data={subItem}
-              className="group-hover:text-gray-400 group-hover:fill-gray-400"
+              className="group-hover:text-gray-400 "
+              color={item.color}
             />
           ))}
         </div>
